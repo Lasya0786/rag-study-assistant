@@ -1,0 +1,411 @@
+/* ==========================================
+   MAIN BACKGROUND
+========================================== */
+
+.stApp {
+    background: linear-gradient(
+        135deg,
+        #f5f3ff 0%,
+        #eef6ff 50%,
+        #fdf2f8 100%
+    );
+}
+
+
+/* ==========================================
+   MAIN CONTENT
+========================================== */
+
+.main .block-container {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    max-width: 1200px;
+}
+
+
+/* ==========================================
+   MAIN TITLE
+========================================== */
+
+.main-title {
+    font-size: 42px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 5px;
+
+    background: linear-gradient(
+        90deg,
+        #6d28d9,
+        #2563eb,
+        #db2777
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.subtitle {
+    text-align: center;
+    font-size: 17px;
+    color: #64748b;
+    margin-bottom: 30px;
+}
+
+
+/* ==========================================
+   FEATURE CARDS
+========================================== */
+
+.feature-card {
+    background: rgba(255, 255, 255, 0.85);
+
+    border-radius: 18px;
+
+    padding: 20px;
+
+    text-align: center;
+
+    border: 1px solid rgba(148, 163, 184, 0.25);
+
+    box-shadow:
+        0 8px 25px rgba(30, 41, 59, 0.08);
+
+    margin-bottom: 20px;
+}
+
+
+.feature-icon {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+
+.feature-title {
+    font-weight: 700;
+    font-size: 18px;
+    color: #1e293b;
+}
+
+
+.feature-text {
+    color: #64748b;
+    font-size: 14px;
+}
+
+
+/* ==========================================
+   HEADINGS
+========================================== */
+
+h1,
+h2,
+h3 {
+    color: #1e293b;
+}
+
+
+/* ==========================================
+   TABS
+========================================== */
+
+button[data-baseweb="tab"] {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 20px;
+}
+
+
+button[data-baseweb="tab"]:hover {
+    color: #6d28d9;
+}
+
+
+/* ==========================================
+   BUTTONS
+========================================== */
+
+.stButton > button {
+    border-radius: 12px;
+
+    border: none;
+
+    font-weight: 700;
+
+    padding: 10px 20px;
+
+    background: linear-gradient(
+        90deg,
+        #6d28d9,
+        #2563eb
+    );
+
+    color: white;
+
+    box-shadow:
+        0 5px 15px rgba(37, 99, 235, 0.20);
+
+    transition: all 0.2s ease;
+}
+
+
+.stButton > button:hover {
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 8px 20px rgba(109, 40, 217, 0.30);
+}
+
+
+/* ==========================================
+   TEXT INPUT
+========================================== */
+
+.stTextInput input {
+    border-radius: 12px;
+
+    border: 2px solid #ddd6fe;
+
+    padding: 12px;
+}
+
+
+.stTextInput input:focus {
+    border-color: #7c3aed;
+
+    box-shadow:
+        0 0 0 2px rgba(124, 58, 237, 0.15);
+}
+
+
+/* ==========================================
+   SELECT BOX
+========================================== */
+
+div[data-baseweb="select"] > div {
+    border-radius: 12px;
+
+    border: 2px solid #ddd6fe;
+}
+
+
+/* ==========================================
+   ANSWER CARD
+========================================== */
+
+.answer-card {
+    background: linear-gradient(
+        135deg,
+        #ede9fe,
+        #dbeafe
+    );
+
+    border-left: 6px solid #7c3aed;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    margin: 15px 0;
+
+    box-shadow:
+        0 5px 18px rgba(30, 41, 59, 0.08);
+}
+
+
+/* ==========================================
+   SOURCE CARD
+========================================== */
+
+.source-card {
+    background: #ffffff;
+
+    border-left: 5px solid #2563eb;
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    margin: 10px 0;
+
+    box-shadow:
+        0 4px 15px rgba(30, 41, 59, 0.07);
+}
+
+
+/* ==========================================
+   FLASHCARD
+========================================== */
+
+.flashcard {
+    background: linear-gradient(
+        135deg,
+        #ffffff,
+        #f3e8ff
+    );
+
+    border: 2px solid #c4b5fd;
+
+    border-radius: 22px;
+
+    padding: 45px 30px;
+
+    text-align: center;
+
+    min-height: 220px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    box-shadow:
+        0 10px 30px rgba(76, 29, 149, 0.12);
+
+    margin: 20px 0;
+}
+
+
+.flashcard-number {
+    color: #7c3aed;
+
+    font-weight: 700;
+
+    font-size: 15px;
+}
+
+
+.flashcard-question {
+    font-size: 26px;
+
+    font-weight: 700;
+
+    color: #1e293b;
+
+    margin-top: 15px;
+}
+
+
+.flashcard-answer {
+    background: #dcfce7;
+
+    color: #166534;
+
+    border-radius: 12px;
+
+    padding: 15px;
+
+    margin-top: 20px;
+
+    font-size: 18px;
+
+    font-weight: 600;
+}
+
+
+/* ==========================================
+   SCORE CARD
+========================================== */
+
+.score-card {
+    background: linear-gradient(
+        135deg,
+        #dcfce7,
+        #dbeafe
+    );
+
+    border-radius: 20px;
+
+    padding: 25px;
+
+    text-align: center;
+
+    border: 2px solid #86efac;
+
+    margin: 20px 0;
+}
+
+
+.score-number {
+    font-size: 42px;
+
+    font-weight: 800;
+
+    color: #15803d;
+}
+
+
+.score-text {
+    font-size: 18px;
+
+    color: #475569;
+}
+
+
+/* ==========================================
+   SIDEBAR
+========================================== */
+
+section[data-testid="stSidebar"] {
+    background: linear-gradient(
+        180deg,
+        #ede9fe,
+        #dbeafe
+    );
+}
+
+
+section[data-testid="stSidebar"] h1,
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3 {
+    color: #312e81;
+}
+
+
+/* ==========================================
+   PDF ITEMS
+========================================== */
+
+.pdf-item {
+    background: rgba(
+        255,
+        255,
+        255,
+        0.75
+    );
+
+    padding: 10px 12px;
+
+    border-radius: 10px;
+
+    margin: 7px 0;
+
+    color: #3730a3;
+
+    font-weight: 600;
+}
+
+
+/* ==========================================
+   DIVIDER
+========================================== */
+
+hr {
+    border-color: #ddd6fe;
+}
+
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+.footer {
+    text-align: center;
+
+    color: #64748b;
+
+    padding: 20px;
+
+    font-size: 14px;
+}
