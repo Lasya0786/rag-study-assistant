@@ -1,4 +1,5 @@
 streamlit
+google-genai
 chromadb
 langchain
 langchain-community
